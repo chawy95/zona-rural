@@ -25,6 +25,7 @@
   </div>
 </nav>
 
+        <form method="POST" action="asociacion/buscar">
 <div class="modal" id="modal-cosulta"  tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -45,9 +46,11 @@
       </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
 </div>
+
+      </form>
